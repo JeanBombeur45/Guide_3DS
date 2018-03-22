@@ -253,6 +253,8 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
+# build
+future: true
 
 
 # HTML Compression
@@ -261,6 +263,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
 
 # Defaults
 defaults:
