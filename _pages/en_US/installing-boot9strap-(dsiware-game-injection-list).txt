@@ -1,46 +1,46 @@
 ---
-title: "Installing boot9strap (DSiWare Game Injection List)"
+title: "Installer boot9strap (Liste des jeux pour l'injection DSiWare)"
 ---
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lecture requise
 
-This is an automatically generated list of all [Installing boot9strap (DSiWare)](installing-boot9strap-(dsiware)) compatible games.
+C'est une liste automatiquement générée de tous les jeux DSiWare compatibles avec [Installer boot9strap (DSiWare)](installing-boot9strap-(dsiware)).
 
-The list is sectioned off by region in the order USA, EUR, JPN. Each section is sorted by ascending price.
+Cette liste est découpé par région, dans l'ordre USA, EUR et JPN. Chaque section est triée par prix croissant.
 
-QR Codes can be scanned by pressing (L + R) on the home menu, then tapping the QR icon on the bottom screen.
+Les QR codes peuvent êtres scannés en appuyant sur (L + R) dans le menu principal de la 3DS, puis en appuyant sur l'icône QR sur l'écran du bas.
 
-The following size requirements are because the injected DSiWare and its hacked save must not modify their respective file sizes in order to system transfer properly, meaning that the donor DSiWare must be large enough to fit the hacked DSiWare.
+La taille des fichiers est importante car le DSiWare injecté et sa sauvegarde hackée ne doivent pas avoir une tailles différente pour pouvoir être transférés correctement, donc le DSiWare "hôte" doit être assez gros pour contenir le DSiWare hacké.
 
 {% capture notice-list %}
 
-    Compatible DSiWare games must meet specific size requirements, which are as follows:
+    Les titres DSiWare compatibles doivent satisfaire les exigences de taille qui suivent :
 
     + USA DSiWare
-      + Uses sudokuhax
-      + `.app` size of >= 3,457,024 bytes
-      + `public.sav` size of >= 67,584 bytes
+      + Utilise sudokuhax
+      + Taille du `.app` >= 3,457,024 octets
+      + Taille du `public.sav` >= 67,584 octets
 
     + EUR DSiWare
-      + Uses sudokuhax
-      + `.app` size of >= 3,563,520 bytes
-      + `public.sav` size of >= 69,536 bytes
+      + Utilise sudokuhax
+      + Taille du `.app` >= 3,563,520 bytes
+      + Taille du `public.sav` >= 69,536 bytes
 
     + JPN DSiWare
-      + Uses 4swordshax
-      + `.app` size of >= 14,131,200 bytes
-      + `public.sav` size of == 16,384 bytes
-      + If `public.sav` is not exactly 16KB, 4swords will delete it
+      + Utilise 4swordshax
+      + Taille du `.app` >= 14,131,200 octets
+      + Taille `public.sav` == 16,384 octets
+      + Si "public.sav" ne pèse pas exactement 16Ko, 4swords va l'effacer
 
 {% endcapture %}
 
 <div class="notice--primary">{{ notice-list | markdownify }}</div>
 
-### List
+### Liste
 
-| | Price | 8 Character ID | Region(s) | QR Code |
+| | Prix | ID en 8 caractères | Région(s) | QR Code |
 |:-:|:-:|:-:|:-:|:-:|
 | Faceez! Monsters | $1.99 | 4B464D45 | USA | ![qrcode]({{ "/images/qrcodes/000480044B464D45.png" | absolute_url }})
 | Faceez | $1.99 | 4B465A45 | USA | ![qrcode]({{ "/images/qrcodes/000480044B465A45.png" | absolute_url }})
@@ -103,7 +103,7 @@ The following size requirements are because the injected DSiWare and its hacked 
 | Rytmik Retrobits | $7.99 | 4B595245 | USA | ![qrcode]({{ "/images/qrcodes/000480044B595245.png" | absolute_url }})
 | Rhythm Core Alpha 2™ | $9.99 | 4B593445 | USA | ![qrcode]({{ "/images/qrcodes/000480044B593445.png" | absolute_url }})
 
-| | Price | 8 Character ID | Region(s) | QR Code |
+| | Prix | ID en 8 caractères | Région(s) | QR Code |
 |:-:|:-:|:-:|:-:|:-:|
 | Faceez: Monsters! | 1,99€ | 4B464D50 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B464D50.png" | absolute_url }})
 | Faceez | 1,99€ | 4B465A56 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B465A56.png" | absolute_url }})
@@ -161,7 +161,7 @@ The following size requirements are because the injected DSiWare and its hacked 
 | Rytmik Retrobits | 7,99€ | 4B595256 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B595256.png" | absolute_url }})
 | Rhythm Core Alpha 2™ | 9,99€ | 4B593456 | EUR | ![qrcode]({{ "/images/qrcodes/000480044B593456.png" | absolute_url }})
 
-| | Price | 8 Character ID | Region(s) | QR Code |
+| | Prix | ID en 8 caractères | Région(s) | QR Code |
 |:-:|:-:|:-:|:-:|:-:|
 | タッチで漫才! メガミの笑壺DL | 500円 | 4B394C4A | JPN | ![qrcode]({{ "/images/qrcodes/000480044B394C4A.png" | absolute_url }})
 | 練熟漢字中学生 | 800円 | 4B4A384A | JPN | ![qrcode]({{ "/images/qrcodes/000480044B4A384A.png" | absolute_url }})

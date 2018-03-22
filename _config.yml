@@ -8,7 +8,7 @@
 minimal_mistakes_skin    : "nord"
 
 # Site Settings
-locale                   : "fr-FR"
+locale                   : "en_US"
 title                    : "PS3Xploit v3 Guide"
 title_separator          : "-"
 name                     : "JeanBombeur45"
@@ -147,11 +147,11 @@ exclude: [
   _pages/de_DE,
   _pages/el_GR,
   _pages/en_PT,
-  _pages/en_US,
+  # _pages/en_US,
   _pages/es_EM,
   _pages/es_ES,
   _pages/fi_FI,
-  # _pages/fr_FR,
+  _pages/fr_FR,
   _pages/he_IL,
   _pages/hu_HU,
   _pages/id_ID,

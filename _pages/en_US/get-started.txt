@@ -1,43 +1,43 @@
 ---
-title: "Get Started"
+title: "Bien Démarrer"
 ---
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lecture requise
 
-Different device models and versions will require different steps to achieve the end goal of boot9strap Custom Firmware. This page will help you find where to start for your device.
+Des consoles de modèles, de versions et/ou de régions différentes requièrent des étapes différentes pour atteindre l'objectif final d'un Custom Firmware basé sur boot9strap. Cette page vous aidera à trouver par où commencer en fonction de votre console.
 
-Click the image of your device to take you to the appropriate page. The colors of the devices in the image may vary, but note the button placement and features of each device carefully to ensure you select the correct one.
+Cliquez sur l'image qui correspond à votre console pour vous rendre à la page appropriée. Les couleurs des consoles dans l'image peuvent varier, mais notez le positionnement des boutons et les fonctionnalités de chaque console pour vous assurez que vous choisissez la bonne.
 
-If you have already hacked your 3DS before and have an EmuNAND based CFW setup, just follow all instructions while on SysNAND. Replace any files that already exist. Your data will be transferred from EmuNAND to your new B9S install at the end. If you use menuhax, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata) to remove it before beginning.
+Si vous avez déjà hacké votre 3DS dans le passé et avez un CFW basé sur une EmuNAND, suivez simplement toutes les instructions depuis votre SysNAND. Remplacez tout fichier déjà existant. Vos données vont être transférées de l'EmuNAND à votre installation de B9S à la fin. If you use menuhax, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata) to remove it before beginning.
 
-This page is for instructions on how to install boot9strap to a *stock* 3DS or 2DS. If you already have arm9loaderhax installed and are looking to update to boot9strap, follow [A9LH to B9S](a9lh-to-b9s).
+Cette page donne des instructions sur comment installer boot9strap sur une 3DS ou 2DS vierge. Si vous avez déjà installé arm9loaderhax et que vous voulez passer à boot9strap, suivez [A9LH to B9S](a9lh-to-b9s).
 {: .notice--primary}
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Avant de commencer, les utilisateurs de Windows devraient permettre d'afficher les extensions de fichiers suivant ce guide [Extensions de fichiers (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Avant de commencer, assurez vous que votre carte SD n'a pas d'erreurs en utilisant [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Il y a eu des informations concernant une vague de bannissements contre les utilisateurs de CFW par Nintendo. Pour vous protéger, merci de bien faire les étapes suivantes avant de commencer ce guide:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend List
+1. Allez dans les paramètres de la console, puis dans les "Paramètres Internet", puis dans "SpotPass" puis "Envoi d'informations système"
+1. Désactiver l'option "Envoyer des informations système"
+1. Sortez des paramètres système
+1. Accédez à votre liste d’ami ([icône de visage orange] ({{"/images/friend-list-icon.png" | absolute_url}}) dans la rangée du haut de votre menu HOME)
+  + Si vous obtenez un message d’erreur et êtes sorti du menu de force, soit la liste d’ami est déjà désactivée soit votre console ne peut pas se connecter aux serveurs de Nintendo (en raison d’un ban ou un problème de connexion)
+1. Allez dans les paramètres de la liste d’ami, puis "Notification à vos amis", puis "Afficher le titre du logiciel que vous utilisez"
+1. Désactivez l'option "Afficher le titre du logiciel que vous utilisez"
+1. Sortez de votre liste d’amis
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Device Table
+### Liste des consoles
 
 <table>
   <colgroup>
@@ -46,8 +46,8 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS or New 2DS</th>
-      <th style="text-align: center">Old 3DS or Old 2DS</th>
+      <th style="text-align: center">New 3DS ou New 2DS</th>
+      <th style="text-align: center">Old 3DS ou Old 2DS</th>
     </tr>
   </thead>
   <tbody>

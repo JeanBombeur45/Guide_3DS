@@ -4,60 +4,60 @@ title: "Homebrew Launcher (Alternatives)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lecture requise
 
-The Homebrew Launcher has many different entrypoints, or methods of launching.
+Il existe différentes méthodes pour lancer l'Homebrew Launcher.
 
-If browserhax is not an option (see the chart below), you do not already own any of these games, and do not have another 3DS that can access the Homebrew Launcher, the cheapest option is to buy a "Nintendo Selects" copy of [Ocarina of Time 3D](https://amzn.to/2fkaKdp) (ensure you get the correct cartridge for your region) and a [Powersaves](https://amzn.to/2fb3VY7) (compatible with all regions), then use oot3dhax from the chart below.
+Si vous ne possédez aucun de ces jeux ni une seconde 3DS ayant accès au Homebrew Launcher, le moins cher est d'acheter une copie "Nintendo Selects" d'[Ocarina of Time 3D](https://amzn.to/2fkaKdp) (faites attention à bien acheter une cartouche de la région que votre console) ainsi qu'une [Powersaves](https://amzn.to/2fb3VY7) (compatible avec toutes les régions), puis de suivre les instructions concernant oot3dhax ci-dessous.
 
-Ensure your device's Wireless Communication is turned on as udsploit (used in the next page) will need the wireless module to be active to function, and some devices (New 3DS, New 2DS, and Old 2DS) cannot adjust the Wireless Communication setting from the Homebrew Launcher. Wireless Communication only has to be on; connecting it to an access point is not required.
+Assurez vous que la que communication sans fil de votre appareil est allumée, udsploit (utilisé dans la page suivante) aura besoin que le module sans fil soit actif pour fonctionner, de plus certains appareils (New 3DS, New 2DS et Old 2DS) ne peuvent pas régler la Communication sans fil depuis le l'Homebrew Launcher. La Communication sans fil doit juste être allumée; la connexion à un point d’accès n’est pas nécessaire.
 
-To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programme d'archives comme [7-Zip](http://www.7-zip.org/) ou [The Unarchiver](https://theunarchiver.com).
 
-### What You Need
+## Ce dont vous avez besoin
 
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}
-* The latest release of [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
+* La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
+* La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* La dernières version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard, pas le fichier `devkit` et ni le fichier `ntr`)*
+* La dernière version de [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}
+* La dernière version de [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
+* La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(le fichier `.7z`)*
 
 ### Instructions
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Create a folder named `3ds` on the root of your SD card if it does not already exist
-1. Copy `boot.3dsx` to the root of your SD card
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Copy `safehax.3dsx` to the `/3ds/` folder on your SD card
-1. Copy `udsploit.3dsx` to the `/3ds/` folder on your SD card
-1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card and rename `SafeB9SInstaller.bin` to `safehaxpayload.bin`
+1. Éteignez votre 3DS
+1. Insérez votre carte SD dans votre ordinateur
+1. Créez un dossier nommé `3ds` à la racine de votre carte SD si celui ci n'existe pas
+1. Copiez `boot.3dsx` à la racine de votre carte SD
+1. Copiez `boot.firm` de Luma3DS `.7z` dans la racine de votre carte SD
+1. Créez un dossier à la racine de votre carte SD nommé `boot9strap`
+1. Copiez `boot9strap.firm` et `boot9strap.firm.sha` depuis le fichier ".zip" de boot9strap vers le dossier `/boot9strap/` sur votre carte SD
+1. Copiez `safehax.3dsx` dans le dossier `/3ds/` de votre carte SD
+1. Copiez `udsploit.3dsx` vers le répertoire `/3ds/` sur votre carte SD
+1. Copiez `SafeB9SInstaller.bin` de l'archive SafeB9SInstaller `.zip` à la racine de votre carte SD, et renommez `SafeB9SInstaller.bin` en `safehaxpayload.bin`
 
     ![]({{ "/images/screenshots/boot9strap-hb-file-layout.png" | absolute_url }})
     {: .notice--info}
     
-1. Reinsert your SD card into your device
-1. Power on your device
-1. Use one of the following alternate entrypoints to get into the Homebrew Launcher:
+1. Réinsérez votre carte SD dans votre 3DS
+1. Allumez à présent votre 3DS
+1. Utilisez un de ces points d'accès alternatifs suivants pour entrer dans l'Homebrew Launcher:
 
-    | <sub> | <sub>Requires | <sub>Editions | <sub>Devices | <sub>Regions | <sub>Game Versions | <sub>System Versions |
+    | <sub> | <sub>Nécessite | <sub>Éditions | <sub>Consoles | <sub>Régions | <sub>Versions du jeu | <sub>Versions du système |
     |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-    | <sub>[browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) | <sub>Nothing | <sub>Preinstalled | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-2 up to and including 11.0.0-33 |
-    | <sub>[oot3dhax](https://github.com/yellows8/oot3dhax) | <sub>[*Ocarina of Time 3D*](https://amzn.to/2fkaKdp), <br> Either a powersaves or another 3DS which already has the Homebrew Launcher | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-X up to and including 11.6.0-X |
-    | <sub>[smashbroshax](https://gbatemp.net/threads/397194/) | <sub>[*Super Smash Bros*](https://amzn.to/2ftGA72) | <sub>Cart, eShop | <sub>New  | <sub>EUR, JPN, USA | <sub><1.1.3, <br> Carts with "amiibo" on the cover are preinstalled with v1.1.4 | <sub>9.0.0-X up to and including 11.3.0-X |
-    | <sub>[supermysterychunkhax](https://smd.salthax.org/) | <sub>[*Pokemon Super Mystery Dungeon*](https://amzn.to/2ebxZ75), <br> Another 3DS which already has the Homebrew Launcher | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.9.0-X (USA/JPN) / 10.2.0-X (EUR) up to and including 11.0.0-X |
-    | <sub>[freakyhax](http://plutooo.github.io/freakyhax/) | <sub>[*Freakyforms Deluxe*](https://amzn.to/2f6eHO7) | <sub>eShop, Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-X up to and including 11.6.0-X |
-    | <sub>[basehaxx](http://mrnbayoh.github.io/basehaxx/) | <sub>*Pokemon [Omega Ruby](https://amzn.to/2eRILNQ)/[Alpha Sapphire](https://amzn.to/2ebGrmN)*, <br> Another 3DS which already has the Homebrew Launcher | <sub>Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.0, 1.4 | <sub>9.0.0-X up to and including 11.3.0-X |
-    | <sub>[BASICSploit](https://mrnbayoh.github.io/basicsploit/) | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv) | <sub>eShop | <sub>New, Old, 2DS | <sub>USA | <sub>3.2.1 | <sub>9.0.0-X up to and including 11.0.0-X |
-    | <sub>[smilehax](https://plutooo.github.io/smilehax/) | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv) | <sub>eShop | <sub>New, Old, 2DS | <sub>JPN, USA | <sub>3.3.1 | <sub>9.0.0-X up to and including 11.0.0-X |
-    | <sub>[stickerhax](https://github.com/yellows8/stickerhax) | <sub>[*Paper Mario: Sticker Star*](https://amzn.to/2f6aDx8), <br> Another 3DS which already has the Homebrew Launcher | <sub>eShop, Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, KOR, USA | <sub>All | <sub>9.0.0-X up to and including 11.3.0-X |
-    | <sub>[Ninjhax 2](http://smealum.github.io/ninjhax2/) | <sub>[*Cubic Ninja*](https://amzn.to/2eRI1by) | <sub>eShop, Cart | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-X up to and including 11.6.0-X |
-    | <sub>[Notehax](https://mrnbayoh.github.io/notehax/) | <sub>[*Flipnote Studio 3D*](https://my.nintendo.com/rewards/0391c34c430369c0) | <sub>eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.3.1 (JPN) / 1.0.0 (EUR/USA) | <sub>9.0.0-X up to and including 11.5.0-X |
-    | <sub>[RPwnG](https://mrnbayoh.github.io/rpwng/) | <sub>[*RPG Maker Player*](http://www.nintendo.com/games/detail/rpg-maker-player-3ds) | <sub>eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.1.4 (EUR) / 1.1.2 (JPN/USA) | <sub>9.0.0-X up to and including 11.5.0-X |
-    | <sub>[GenHax](https://github.com/svanheulen/genhax_proxy_installer) | <sub>[*Monster Hunter X*](http://amzn.to/2gsk6Tk) | <sub>eShop | <sub>New | <sub>JPN | <sub>All | <sub>9.9.0-X up to and including 11.2.0-X |
+    | <sub>[browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) | <sub>Rien | <sub>Préinstallé | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>9.0.0-2 jusqu'à et y compris 11.0.0-33 |
+    | <sub>[oot3dhax](https://github.com/yellows8/oot3dhax) | <sub>[*Ocarina of Time 3D*](http://amzn.eu/azCSnp8), <br> Soit une Powersaves soit une autre 3DS ayant déjà l'Homebrew Launcher installé | <sub>Carte | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Toutes | <sub>9.0.0-X jusqu'à 11.6.0-X inclut |
+    | <sub>[smashbroshax](https://gbatemp.net/threads/397194/) | <sub>[*Super Smash Bros*](http://amzn.eu/a25GotC) | <sub>Cartouche, téléchargement eShop | <sub>New  | <sub>EUR, JPN, USA | <sub><1.1.3, <br> Les covers avec "amiibo" derrière avec la v1.1.4 | <sub>9.0.0-X jusqu'à 11.3.0-X inclut |
+    | <sub>[supermysterychunkhax](https://smd.salthax.org/) | <sub>[*Pokemon Méga Donjon Mystère*](http://amzn.eu/4atahp8), <br> Une autre 3DS ayant déjà l'Homebrew Launcher d'installer | <sub>Carte | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Toutes | <sub>9.9.0-X (USA/JPN) / 10.2.0-X (EUR) jusqu'à 11.0.0-X inclut |
+    | <sub>[freakyhax](http://plutooo.github.io/freakyhax/) | <sub>[*Freakyforms Deluxe*](http://amzn.eu/aVfeWdz) | <sub>Carte, téléchargement eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Toutes | <sub>9.0.0-X jusqu'à 11.6.0-X inclut |
+    | <sub>[basehaxx](http://mrnbayoh.github.io/basehaxx/) | <sub>*Pokemon [Rubis Oméga](http://amzn.eu/agIUklM)/[Saphir Alpha](http://amzn.eu/8za2Roq)*, <br> Une autre 3DS ayant déjà l'Homebrew Launcher d'installé | <sub>Carte | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.0, 1.4 | <sub>9.0.0-X jusqu'à 11.3.0-X inclut |
+    | <sub>[BASICSploit](https://mrnbayoh.github.io/basicsploit/) | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv) | <sub>téléchargement eShop | <sub>New, Old, 2DS | <sub>USA | <sub>3.2.1 | <sub>9.0.0-X jusqu'à 11.0.0-X inclut |
+    | <sub>[smilehax](https://plutooo.github.io/smilehax/) | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv) | <sub>téléchargement eShop | <sub>New, Old, 2DS | <sub>JPN, USA | <sub>3.3.1 | <sub>9.0.0-X jusqu'à 11.0.0-X inclut |
+    | <sub>[stickerhax](https://github.com/yellows8/stickerhax) | <sub>[*Paper Mario : Sticker Star*](http://amzn.eu/cc1g2Ox), <br> Une autre 3DS ayant déjà l'Homebrew Launcher d'installé | <sub>Carte, téléchargement eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, KOR, USA | <sub>Toutes | <sub>9.0.0-X jusqu'à 11.3.0-X inclut |
+    | <sub>[Ninjhax 2](http://smealum.github.io/ninjhax2/) | <sub>[*Cubic Ninja*](http://amzn.eu/5JUjHP6) | <sub>Carte, téléchargement eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Toutes | <sub>9.0.0-X jusqu'à 11.6.0-X inclut |
+    | <sub>[Notehax](https://mrnbayoh.github.io/notehax/) | <sub>[*Flipnote Studio 3D*](https://my.nintendo.com/rewards/0391c34c430369c0) | <sub>eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.3.1 (JPN) / 1.0.0 (EUR/USA) | <sub>9.0.0-X jusqu'à 11.5.0-X |
+    | <sub>[RPwnG](https://mrnbayoh.github.io/rpwng/) | <sub>[*RPG Maker Player*](http://www.nintendo.com/games/detail/rpg-maker-player-3ds) | <sub>eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.1.4 (EUR) / 1.1.2 (JPN/USA) | <sub>9.0.0-X jusqu'à 11.5.0-X |
+    | <sub>[GenHax](https://github.com/svanheulen/genhax_proxy_installer) | <sub>[*Monster Hunter X*](http://amzn.eu/clzqw10) | <sub>téléchargement eShop | <sub>New | <sub>JPN | <sub>Toutes | <sub>9.9.0-X jusqu'à 11.2.0-X inclut |
     {: .notice--info}
 
     <script type="text/javascript">
@@ -74,10 +74,10 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
     </script>
     <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
 
-1. Your device should load the Homebrew Launcher
+1. Votre console devrait maintenant charger le Homebrew Launcher
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}
 
-### Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+### Continuez vers [Installer boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}

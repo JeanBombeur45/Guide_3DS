@@ -1,48 +1,48 @@
 ---
-title: "Flashing ntrboot (DSi)"
+title: "Flasher ntrboot (DSi)"
 ---
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lecture requise
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Avant de commencez , assurez vous de connaître les informations sur [Ntrboot](ntrboot)
 
-This method requires temporary access to a Nintendo DSi that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your NDS. This means that your flashcart must support launching `.nds` files on your NDS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
+Cette méthode nécessite un accès temporaire à une Nintendo DSI qui soit compatible avec votre linker. Cette méthode utilise le linker pour exécuter le flasheur ntrboot `.nds` sur votre DSi. Cela signifie que votre linker doit pouvoir lancer des fichiers `.nds` sur votre NDS. Consultez le tableau des linkers sur [ntrboot](ntrboot) pour plus d’informations.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne inutilsable . C'est peu probable , mais notez que seule les originaux fonctionnent avec Ntrboot . Pour réduire les chances d'avoir une contrefaçon utilisez ([NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### What You Need
+## Ce dont vous avez besoin
 
-* Your ntrboot compatible flashcart
-* Two devices 
-  + **The source DSi**: the Nintendo DSi which is compatible with your flashcart
-  + **The target 3DS**: the 3DS family device on stock firmware
-* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} *(`dsi` flasher; not the standard flasher)*
+* Votre linker compatible ntrboot
+* Deux Consoles 
+  + ** La DSI source **: la Nintendo DSI qui est compatible avec votre cartouche
+  + **La 3DS cible**: la 3DS sur un firmware non touché
+* La dernière version de [ds_ntrboot_flasher] (https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} *(le fichier `dsi`)*
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
-1. Power off **the source DSi**
-1. Insert your flashcart's SD card into your computer
-1. Copy `ds_ntrboot_flasher_dsi.nds` to your flashcart's SD card
-1. Reinsert your flashcart's SD card back into your flashcart
-1. Insert your ntrboot compatible DS / DSi flashcart into **the source DSi**
+1. Éteignez **La DSI source**
+1. Insérez votre carte SD du Linker dans votre ordinateur
+1. Copiez `ds_ntrboot_flasher_dsi.nds` sur la carte SD de votre linker
+1. Réinsérez la carte SD dans votre Linker
+1. Insérez votre cartouche compatible NTRBoot dans ** la DSI source **
 
-#### Section II - Flashing ntrboot
+#### Section II - Flasher ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source DSi** using your flashcart
-1. Press (A) to continue
-1. Use (Up) and (Down) to select your flashcart
-1. Press (A) to continue
-1. Press (A) to "inject ntrboothax"
-1. Press (A) to select "RETAIL"
-1. Press (A) to continue
-1. Select "EXIT"
+1. Lancez`ds_ntrboot_flasher_dsi.nds` sur **la DSi source** en utilisant votre linker
+1. Appuyez sur (A) pour continuer
+1. Utilisez (Haut) et (Bas) pour sélectionner votre linker
+1. Appuyez sur (A) pour continuer
+1. Appuyez sur (A) pour "inject ntrboothax"
+1. Appuyez sur (A) pour sélectionner "RETAIL"
+1. Appuyez sur (A) pour continuer
+1. Sélectionnez "EXIT"
 
 ___
 
-### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continuez vers [installation de boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}
