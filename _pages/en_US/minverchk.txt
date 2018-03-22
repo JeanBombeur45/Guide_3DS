@@ -1,27 +1,27 @@
----
+ï»¿---
 title: "Minverchk"
 ---
 
-## Pré-requis : 
+## PrÃ©-requis : 
 
-- Clé USB ou Disque Dur au format FAT32 (n'appellez pas votre périphérique USB "PS3")
+- ClÃ© USB ou Disque Dur au format FAT32 (n'appellez pas votre pÃ©riphÃ©rique USB "PS3")
 - [minverchk](https://www.dropbox.com/s/dex0jnklx4knj1u/MinVerChk.rar)
 
 ## Etape 1 :
 
-- Sur la racine de votre clé USB, créez un dossier `PS3`
-- Dans le dossier `PS3`, créez un dossier `UPDATE`
+- Sur la racine de votre clÃ© USB, crÃ©ez un dossier `PS3`
+- Dans le dossier `PS3`, crÃ©ez un dossier `UPDATE`
 - Ouvrez l'archive `MinVerChk.rar` et copiez `PS3UPDAT.PUP` dans le dossier `UPDATE`
 
 ## Etape 2 :
 
-- Branchez votre clé USB sur votre console PS3 et allumez votre console
-- Rendez vous dans l'onglet "Paramètres" de votre console puis "Mise à jour système"
-- Sélectionnez "Mise à Jour paar support de stockage
-- Un message affichera "Version Check by Ifcaro", sélectionnez "OK" et pressez "X"
-- Après avoir patienté quelques secondes, un message vous affichera votre firmware de base.
+- Branchez votre clÃ© USB sur votre console PS3 et allumez votre console
+- Rendez vous dans l'onglet "ParamÃ¨tres" de votre console puis "Mise Ã  jour systÃ¨me"
+- SÃ©lectionnez "Mise Ã  Jour paar support de stockage
+- Un message affichera "Version Check by Ifcaro", sÃ©lectionnez "OK" et pressez "X"
+- AprÃ¨s avoir patientÃ© quelques secondes, un message vous affichera votre firmware de base.
 
-Si votre firmware de base est inférieur ou égal à 3.56, vous pouvez installer un CFW, ce qui est rudement recommandé, simplifiant ainsi les manipulations et rajoutant de nombreuses fonctionnalités.
+Si votre firmware de base est infÃ©rieur ou Ã©gal Ã  3.56, vous pouvez installer un CFW, ce qui est rudement recommandÃ©, simplifiant ainsi les manipulations et rajoutant de nombreuses fonctionnalitÃ©s.
 {: .notice--success}
 
 Dans tout les cas, [la suite de ce guide](pre-requis) est compatible avec toutes les consoles.
