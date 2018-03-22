@@ -32,7 +32,9 @@ Pour rappel (optionnel) : Si votre console est une PS3 Slim, testez à l'aide de
 
 ## Important :
 
-Par cette méthode, les jeux s'installeront sur le disque interne de votre console. Dans le meilleur des cas, celui-ci fait originellement 500Go, mais dans le pire des cas, celui-ci fait 12Go. Certains jeux peuvent peser plus de 50Go. Il en faudra le double pour la procédure d'installation (exemple : Uncharted 3 prend 46Go, il vous faudra temporairement 92Go pour l'installer, mais après l'installation, seul 46Go seront utilisés). Dans le cas d'un petit disque dur, il est recommandé de le changer pour un de plus grande taille via cette procédure :_ https://www.playstation.com/fr-fr/get-help/help-library/system---hardware/storage---data/changing-or-upgrading-the-playstation-3-super-slim-hard-disk-dri/. La même procédure est faisable sur PS3 Slim. Il est recommandé de sauvegarder ses données auparavant.
+Par cette méthode, les jeux s'installeront sur le disque interne de votre console. Dans le meilleur des cas, celui-ci fait originellement 500Go, mais dans le pire des cas, celui-ci fait 12Go. Certains jeux peuvent peser plus de 50Go. Il en faudra le double pour la procédure d'installation (exemple : Uncharted 3 prend 46Go, il vous faudra temporairement 92Go pour l'installer, mais après l'installation, seul 46Go seront utilisés).
+Dans le cas d'un petit disque dur, il est recommandé de le changer pour un de plus grande taille via [cette procédure.](https://www.playstation.com/fr-fr/get-help/help-library/system---hardware/storage---data/changing-or-upgrading-the-playstation-3-super-slim-hard-disk-dri/)
+La même procédure est faisable sur PS3 Slim. Il est recommandé de sauvegarder ses données auparavant.
 
 Continuer vers [Pré-Requis](pre-requis)
 {: .notice--primary}
