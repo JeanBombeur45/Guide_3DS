@@ -324,7 +324,7 @@ defaults:
       path: "_pages/fr_FR"
       type: pages
     values:
-      permalink: /:basename:output_ext
+      permalink: fr_FR/:basename:output_ext
       lang: fr
   - scope:
       path: "_pages/es_ES"
@@ -342,7 +342,7 @@ defaults:
       path: "_pages/en_US"
       type: pages
     values:
-      permalink: /en_US/:basename:output_ext
+      permalink: /:basename:output_ext
       lang: en
   - scope:
       path: "_pages/he_IL"
@@ -520,7 +520,7 @@ defaults:
       path: "_pages/en_US/home.txt"
       type: pages
     values:
-      permalink: /en_US/index:output_ext
+      permalink: /index:output_ext
   - scope:
       path: "_pages/es_ES/home.txt"
       type: pages
@@ -535,7 +535,7 @@ defaults:
       path: "_pages/fr_FR/home.txt"
       type: pages
     values:
-      permalink: /index:output_ext
+      permalink: fr_FR/index:output_ext
   - scope:
       path: "_pages/he_IL/home.txt"
       type: pages
