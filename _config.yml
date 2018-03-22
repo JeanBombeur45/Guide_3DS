@@ -321,11 +321,11 @@ defaults:
       permalink: /en_PT/:basename:output_ext
       lang: en-PT
   - scope:
-      path: "_pages/en_US"
+      path: "_pages/fr_FR"
       type: pages
     values:
       permalink: /:basename:output_ext
-      lang: en
+      lang: fr
   - scope:
       path: "_pages/es_ES"
       type: pages
@@ -339,11 +339,11 @@ defaults:
       permalink: /fi_FI/:basename:output_ext
       lang: fi
   - scope:
-      path: "_pages/fr_FR"
+      path: "_pages/en_US"
       type: pages
     values:
-      permalink: /fr_FR/:basename:output_ext
-      lang: fr
+      permalink: /en_US/:basename:output_ext
+      lang: en
   - scope:
       path: "_pages/he_IL"
       type: pages
@@ -520,7 +520,7 @@ defaults:
       path: "_pages/en_US/home.txt"
       type: pages
     values:
-      permalink: /index:output_ext
+      permalink: /en_US/index:output_ext
   - scope:
       path: "_pages/es_ES/home.txt"
       type: pages
@@ -535,7 +535,7 @@ defaults:
       path: "_pages/fr_FR/home.txt"
       type: pages
     values:
-      permalink: /fr_FR/index:output_ext
+      permalink: /index:output_ext
   - scope:
       path: "_pages/he_IL/home.txt"
       type: pages
