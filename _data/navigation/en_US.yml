@@ -12,6 +12,9 @@ main:
   - 
     title: Crédits
     url: credits
+  - 
+    title: Pré-Requis
+    url: pre-requis
 bottom:
   - 
     title: Si vous appréciez ce guide, Plailect, l'auteur original de 3DSGuide accepte les <a href="donations">Donations</a>.
@@ -30,5 +33,5 @@ sidebar_pages:
     title: Accueil
     url: /
   - 
-    title: Pour commencer
-    url: get-started
+    title: Pré-Requis
+    url: pre-requis
