@@ -324,7 +324,7 @@ defaults:
       path: "_pages/fr_FR"
       type: pages
     values:
-      permalink: fr_FR/:basename:output_ext
+      permalink: /fr_FR/:basename:output_ext
       lang: fr
   - scope:
       path: "_pages/es_ES"
@@ -535,7 +535,7 @@ defaults:
       path: "_pages/fr_FR/home.txt"
       type: pages
     values:
-      permalink: fr_FR/index:output_ext
+      permalink: /fr_FR/index:output_ext
   - scope:
       path: "_pages/he_IL/home.txt"
       type: pages
