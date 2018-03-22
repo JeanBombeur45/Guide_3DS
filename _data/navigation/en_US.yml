@@ -12,6 +12,9 @@ main:
   - 
     title: Crédits
     url: credits
+  - 
+    title: MinVerChk
+    url: minverchk
 bottom:
   - 
     title: Si vous appréciez ce guide, Plailect, l'auteur original de 3DSGuide accepte les <a href="donations">Donations</a>.
