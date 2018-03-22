@@ -9,12 +9,15 @@ title: "Pré-Requis"
 - Une connexion internet pour votre PS3
 
 ## Pré-requis logiciels : 
-_Créez un dossier dédié pour chaque outil_
-- PS3Xploit v3 Support Files (http://www.ps3xploit.com/ -> v3 HAN Tools -> Download Support Files)
-- HAN Toolbox (http://www.psx-place.com/resources/han-toolbox.628/)
-- PS3xploit Resigner (https://github.com/PS3Xploit/PS3xploit-resigner/releases)
-- CFW2OFW Helper (https://github.com/friendlyanon/CFW2OFW-Helper/releases)
-- PKGLinker (http://www.psx-place.com/resources/pkg-linker-v1-0-scan-and-serve-packages-to-ps3-from-pc.630/)
+
+Créez un dossier dédié pour chaque outil
+{: .notice--success}
+
+- [PS3Xploit v3 Support Files](http://www.ps3xploit.com/ -> v3 HAN Tools -> Download Support Files)
+- [HAN Toolbox](http://www.psx-place.com/resources/han-toolbox.628/)
+- [PS3xploit Resigner](https://github.com/PS3Xploit/PS3xploit-resigner/releases)
+- [CFW2OFW Helper](https://github.com/friendlyanon/CFW2OFW-Helper/releases)
+- [PKGLinker](http://www.psx-place.com/resources/pkg-linker-v1-0-scan-and-serve-packages-to-ps3-from-pc.630/)
 - PSNStuff (contient du code propriétaire, un lien ne vous sera pas fourni, mais une recherche Google "PSNStuffX v03.07.00" vous aidera, placez le fichier database (ou une autre database personnalisée) dans le dossier contenant les exécutables)
 
 Il est conseillé d'utiliser un second compte PSN, car il ne fonctionnera plus correctement par la suite.

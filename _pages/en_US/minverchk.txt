@@ -1,0 +1,28 @@
+---
+title: "Minverchk"
+---
+
+## Pré-requis : 
+
+- Clé USB ou Disque Dur au format FAT32 (n'appellez pas votre périphérique USB "PS3")
+- [minverchk](https://www.dropbox.com/s/dex0jnklx4knj1u/MinVerChk.rar)
+
+## Etape 1 :
+
+- Sur la racine de votre clé USB, créez un dossier `PS3`
+- Dans le dossier `PS3`, créez un dossier `UPDATE`
+- Ouvrez l'archive `MinVerChk.rar` et copiez `PS3UPDAT.PUP` dans le dossier `UPDATE`
+
+## Etape 2 :
+
+- Branchez votre clé USB sur votre console PS3 et allumez votre console
+- Rendez vous dans l'onglet "Paramètres" de votre console puis "Mise à jour système"
+- Sélectionnez "Mise à Jour paar support de stockage
+- Un message affichera "Version Check by Ifcaro", sélectionnez "OK" et pressez "X"
+- Après avoir patienté quelques secondes, un message vous affichera votre firmware de base.
+
+Si votre firmware de base est inférieur ou égal à 3.56, vous pouvez installer un CFW, ce qui est rudement recommandé, simplifiant ainsi les manipulations et rajoutant de nombreuses fonctionnalités.
+{: .notice--success}
+
+Dans tout les cas, [la suite de ce guide](pre-requis) est compatible avec toutes les consoles.
+{: .notice--primary}
