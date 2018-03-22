@@ -11,13 +11,13 @@ excerpt: "Guide complet pour installer des backups de jeux PS3 pour console <br 
 # Bienvenue sur le guide pour PS3Xploit-v3
 
 Pour des guides complets pour les homebrew et Custom Firmware sur d'autres consoles, consultez [hacks.guide](https://hacks.guide).
-{: .notice--primary}
+{: .notice--success}
 
 Ce guide a pour but de vous expliquer la procédure à suivre afin d'installer des backups PS3 sur votre console.
 {: .notice--primary}
 
 Disclaimer : Il est illégal de télécharger et d'installer du contenu que vous ne possédez pas, vous devez posséder les l'oeuvre originale...
-{: .notice--warning}
+{: .notice--danger}
 
 Ce wiki est encore incomplet, l'installation de jeux PSX/PS2/PSP n'étant pas encore documenté, et les outils étant mis à jour fréquemment, il se peut que le wiki devienne rapidement outdated, dans ce cas suivez la procédure avec les versions indiquées.
 {: .notice--warning}

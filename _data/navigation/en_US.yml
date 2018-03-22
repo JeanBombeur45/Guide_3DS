@@ -12,12 +12,6 @@ main:
   - 
     title: Crédits
     url: credits
-  - 
-    title: Pré-Requis
-    url: pre-requis
-  - 
-    title: Minverchk
-    url: minverchk
 bottom:
   - 
     title: Si vous appréciez ce guide, Plailect, l'auteur original de 3DSGuide accepte les <a href="donations">Donations</a>.

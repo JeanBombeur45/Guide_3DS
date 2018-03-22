@@ -2,16 +2,16 @@
 title: "Pré-Requis"
 ---
 ## Pré-requis matériels : 
-- PS3 avec Official Firmware 4.81/4.82 (Paramètres Système -> Informations sur le système)
+- PS3 sous Official Firmware 4.81/4.82 (Paramètres Système -> Informations sur le système)
 - Un PC sous Windows (pas testé avec Wine mais il est fort probable que ça soit incompatible)
-- Une clé USB / Disque Dur formatée en FAT32 (seul format lisible par la PS3) (http://www.ridgecrop.demon.co.uk/guiformat-x64.Exe)
+- Une clé USB / Disque Dur formatée en FAT32 (seul format lisible par la PS3) [GUIFormat x64](http://www.ridgecrop.demon.co.uk/guiformat-x64.Exe)
 - Un câble Ethernet et une prise Ethernet sur votre PC
-- Une connexion internet pour votre PS3
+- Un accès à internet pour votre PS3
 
 ## Pré-requis logiciels : 
 
 Créez un dossier dédié pour chaque outil
-{: .notice--success}
+{: .notice--primary}
 
 - [PS3Xploit v3 Support Files](http://www.ps3xploit.com/) (v3 HAN Tools -> Download Support Files)
 - [HAN Toolbox](http://www.psx-place.com/resources/han-toolbox.628/)
