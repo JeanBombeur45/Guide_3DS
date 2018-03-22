@@ -13,7 +13,7 @@ title: "Pré-Requis"
 Créez un dossier dédié pour chaque outil
 {: .notice--success}
 
-- [PS3Xploit v3 Support Files](http://www.ps3xploit.com/ -> v3 HAN Tools -> Download Support Files)
+- [PS3Xploit v3 Support Files](http://www.ps3xploit.com/) (v3 HAN Tools -> Download Support Files
 - [HAN Toolbox](http://www.psx-place.com/resources/han-toolbox.628/)
 - [PS3xploit Resigner](https://github.com/PS3Xploit/PS3xploit-resigner/releases)
 - [CFW2OFW Helper](https://github.com/friendlyanon/CFW2OFW-Helper/releases)
