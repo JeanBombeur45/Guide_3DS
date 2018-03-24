@@ -46,7 +46,7 @@ Votre console doit avoir un accès Internet
 Copiez votre fichier `act.dat` dans des endroits sécurisés, sur votre cloud par exemple, ou vous êtes sur de le retrouver. Il sera important si vous voulez par la suite retirer le hack de votre console !
 {: .notice--warning}
 
-###Deux choix sont maintenant possibles :
+### Deux choix sont maintenant possibles :
 Votre jeu existe sur le PSN :
 Continuer vers [Installation de .pkg du PSN](psn-install)
 Votre jeu existe en version CD, [possède une mise à jour](http://www.psdevwiki.com/ps3/CFW2OFW_Compatibility_List) et sa case "**Working**" n'est pas à `No`
