@@ -49,6 +49,8 @@ Copiez votre fichier `act.dat` dans des endroits sécurisés, sur votre cloud pa
 ### Deux choix sont maintenant possibles :
 Votre jeu existe sur le PSN :
 Continuer vers [Installation de .pkg du PSN](psn-install)
+{. :notice--primary}
 Votre jeu existe en version CD, [possède une mise à jour](http://www.psdevwiki.com/ps3/CFW2OFW_Compatibility_List) et sa case "**Working**" n'est pas à `No`
 Continuer vers [Installation de backup "PS3 Game Folder"](folder-install)
+{. :notice--primary}
 
