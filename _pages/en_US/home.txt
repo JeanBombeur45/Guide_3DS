@@ -22,9 +22,9 @@ Disclaimer : Il est illégal de télécharger et d'installer du contenu que vous
 Ce wiki est encore incomplet, l'installation de jeux PSX/PS2/PSP n'étant pas encore documenté, et les outils étant mis à jour fréquemment, il se peut que le wiki devienne rapidement outdated, dans ce cas suivez la procédure avec les versions indiquées.
 {: .notice--warning}
 
-Les jeux ne sont pas tous compatibles avec cette méthode. En effet, votre jeux doit:
+Les jeux ne sont pas tous compatibles avec cette méthode. En effet, votre jeu doit:
 - Soit se trouver sur le PSN (Exemples : Beyond Two Souls, Doom 3 BFG Edition...)
-- Soit, s'ils n'existent qu'en version CD uniquement, avoir une mise à jour de disponible (Exemples : Uncharted 3, Skate 3...) (Un lien sera disponible dans la page dédiée afin de savoir si votre jeu possède une mise à jour)
+- Soit, s'il n'existe qu'en version CD uniquement, avoir une mise à jour de disponible (Exemples : Uncharted 3, Skate 3...) (Un lien sera disponible dans la page dédiée afin de savoir si votre jeu possède une mise à jour)
 - Si un jeu ne se trouve dans aucun de ces deux cas (Exemples : Skate 1, Worms Collection...), un Custom Firmware est nécessaire, et si vous vous trouvez sur cette page, cela veut très certainement indiquer qu'il est impossible pour votre console d'en installer un pour le moment sans soudures.
 
 Pour rappel (optionnel) : Si votre console est une PS3 Slim, testez à l'aide de [minverchk](minverchk) afin de savoir si votre console est compatible avec les CFW. Si votre console affiche 3.56 ou moins, vous pouvez installer un CFW, mais ce wiki n'est pas dédié à cela. Si c'est une FAT, vous pouvez installer un CFW, si c'est une SuperSlim, il vous faudra obligatoirement suivre ce wiki

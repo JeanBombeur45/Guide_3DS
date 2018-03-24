@@ -35,3 +35,6 @@ sidebar_pages:
   - 
     title: Pré-Requis
     url: pre-requis
+  -
+    title: Installation de HAN
+    url: han-install

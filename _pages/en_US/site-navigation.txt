@@ -15,6 +15,7 @@ sitemap: false
 **Toutes**
 + [Pré-Requis](pre-requis)
 + [MinVerChk](minverchk)
++ [Installation de HAN](han-install)
 + [Crédits](credits)
 + [Dons](donations)
 + [FAQ](faq)

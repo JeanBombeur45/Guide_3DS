@@ -25,7 +25,7 @@ Il est conseillé d'utiliser un second compte PSN, car il ne fonctionnera plus c
 
 ## Préparation du périphérique USB :
 
-1. Copiez l'intégralité du contenu de l'archive `.zip` de "HAN Tools Support Files" sur la racine de votre périphérique USB
+1. Copiez l'intégralité du contenu de l'archive `.zip` de "**HAN Tools Support Files**" sur la racine de votre périphérique USB
 2. Créez un dossier `packages` sur la racine de votre périphérique USB
 3. Copiez le fichier `HAN_Toolbox_vX.X.pkg` dans le dossier `packages` de votre périphérique USB (X.X correspond à la dernière version de HAN Toolbox)
 
