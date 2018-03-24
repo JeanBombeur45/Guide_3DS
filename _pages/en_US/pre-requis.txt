@@ -13,7 +13,7 @@ title: "Pré-Requis"
 Créez un dossier dédié pour chaque outil
 {: .notice--primary}
 
-- [PS3Xploit v3 Support Files](http://www.ps3xploit.com/) (v3 HAN Tools -> Download Support Files)
+- PS3Xploit v3 [HAN Tools Support Files](http://www.ps3xploit.com/) (v3 HAN Tools -> Download Support Files)
 - [HAN Toolbox](http://www.psx-place.com/resources/han-toolbox.628/)
 - [PS3xploit Resigner](https://github.com/PS3Xploit/PS3xploit-resigner/releases)
 - [CFW2OFW Helper](https://github.com/friendlyanon/CFW2OFW-Helper/releases)
@@ -22,3 +22,12 @@ Créez un dossier dédié pour chaque outil
 
 Il est conseillé d'utiliser un second compte PSN, car il ne fonctionnera plus correctement par la suite.
 {: .notice--warning}
+
+## Préparation du périphérique USB :
+
+1. Copiez l'intégralité du contenu de l'archive `.zip` de "HAN Tools Support Files" sur la racine de votre périphérique USB
+2. Créez un dossier `packages` sur la racine de votre périphérique USB
+3. Copiez le fichier `HAN_Toolbox_vX.X.pkg` dans le dossier `packages` de votre périphérique USB (X.X correspond à la dernière version de HAN Toolbox)
+
+Continuer vers [Installation de HAN](han-install)
+{: .notice--primary}

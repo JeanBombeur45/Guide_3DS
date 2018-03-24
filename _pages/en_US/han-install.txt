@@ -1,0 +1,38 @@
+﻿---
+title: "Installation de HAN"
+---
+
+Ce processus va modifier votre compte PSN, il est recommandé d'en créer un deuxième réservé uniquement à ceci.
+{: .notice--warning}
+
+## Installation de l'exploit HAN
+
+Votre console doit avoir un accès Internet
+{: .notice--primary}
+
+1. Branchez votre périphérique USB sur le port le plus à droite de votre console
+2. Ouvrez le navigateur de la console PS3
+3. Pressez △ pour ouvrir le menu du navigateur
+4. Rendez vous dans Outils → Confimer fermeture du navigateur → Non
+5. Toujours dans le menu Outils, allez sur Page d'accueil → Utiliser page vierge et validez
+6. Revenez sur la page de démarrage, puis pressez START et rentrez l'adresse suivante : `http://http://www.ps3xploit.com/han/han_installer.html`
+7. Un pop-up devrait apparaître sur votre écran vous indiquant que votre firmware est compatible (4.81/4.82). Il apparaîtra lors de chaque navigation sur l'une des pages de HAN. Ne cochez pas la case `Désactiver JavaScript dans cette page.` et validez en séléctionnant `O.K.`
+8. Appuyez sur SELECT, séléctionnez `[Ajouter aux signets]` et validez
+9. Retournez sur le navigateur, pressez START et rentrez l'adresse suivante : `http://http://www.ps3xploit.com/han/han_enabler.html`
+10. Appuyez sur SELECT, séléctionnez `[Ajouter aux signets]` et validez
+11. Quittez puis redémarrez le navigateur
+12. Appuyez sur SELECT, puis séléctionnez `PS3Xploit Tools v3.0 - PS3 HAN Installer` et validez
+13. Appuyez `Initialize HAN Installer` puis attendez que l'inscription verte `HAN Installer initialized successfully` apparaisse
+	+ Si une erreur `Exploit Initialization FAILED!` s'affiche, appuyez sur `Refresh this page` et recommencez depuis l'étape 12
+14. Appuyez sur `Launch HAN Installation`, puis patientez jusqu'au redémarrage complet de votre console
+
+## Installation de HAN Toolbox
+
+1. Après avoir redémarrer, réouvrez votre navigateur, appuyez sur SELECT, sélectionnez `PS3Xploit Tools v3.0 - PS3 HAN Enabler` et validez
+2. Appuyez `Initialize HAN Enabler` puis attendez que l'inscription verte `HAN Enabler initialized successfully` apparaisse
+	+ Si une erreur `Exploit Initialization FAILED!` s'affiche, appuyez sur `Refresh this page` et recommencez depuis l'étape 1
+3. Appuyez sur `Enable HAN`, puis patientez jusqu'à la fermeture automatique du navigateur.
+4. Dirigez vous dans l'onglet `Jeu` de votre console
+5. Ouvrez le dossier `★ Gestionnaire de PKG` → `★ Installation de fichier PKG` → `Périphérique de stockage.`
+6. Séléctionnez `HAN_Toolbox_vX.X.pkg` et validez
+
