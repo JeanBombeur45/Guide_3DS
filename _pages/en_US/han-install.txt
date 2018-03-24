@@ -48,10 +48,14 @@ Copiez votre fichier `act.dat` dans des endroits sécurisés, sur votre cloud pa
 
 ### Deux choix sont maintenant possibles :
 Votre jeu existe sur le PSN : <br />
+{% capture notice-1 %}
 Continuer vers [Installation de .pkg du PSN](psn-install)
-{: .notice--primary}
+{% endcapture %}
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>
 
 Votre jeu existe en version CD, [possède une mise à jour](http://www.psdevwiki.com/ps3/CFW2OFW_Compatibility_List) et sa case "**Working**" n'est pas à `No` : <br />
+{% capture notice-2 %}
 Continuer vers [Installation de backup "PS3 Game Folder"](folder-install)
-{: .notice--primary}
+{% endcapture %}
+<div class="notice--primary">{{ notice-2 | markdownify }}</div>
 
